@@ -5,7 +5,7 @@ import time
 # Pin 2 == Vout (sensor pin)
 # Pin 3 == GND
 
-# using an average of the last ten readings to produce a more steady reading
+# using an average of the last ten readings to produce a more stable reading
 
 sensor_pin = 'P9_40'
 
