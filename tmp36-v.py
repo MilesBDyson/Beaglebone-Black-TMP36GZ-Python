@@ -1,6 +1,12 @@
 import Adafruit_BBIO.ADC as ADC
 import time
 
+# Pin 1 == VIN
+# Pin 2 == Vout (sensor pin)
+# Pin 3 == GND
+
+# using an average of the last ten readings to produce a more steady reading
+
 sensor_pin = 'P9_40'
 
 ADC.setup()

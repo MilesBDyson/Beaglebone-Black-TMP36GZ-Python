@@ -1,8 +1,15 @@
 import Adafruit_BBIO.ADC as ADC
 import time
 
+# Pin 1 == VIN
+# Pin 2 == Vout (sensor pin)
+# Pin 3 == GND
+
+# reading two separate tmp36gz sensors at once (max of 6)
+
 sensor_pin1 = 'P9_40'
 sensor_pin2 = 'P9_37'
+
 ADC.setup()
 
 while True:

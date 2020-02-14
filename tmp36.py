@@ -1,10 +1,12 @@
 import Adafruit_BBIO.ADC as ADC
 import time
 
+# Pin 1 == VIN
+# Pin 2 == Vout (sensor pin)
+# Pin 3 == GND
+
 sensor_pin = 'P9_40'
-
 ADC.setup()
-
 while True:
     reading = ADC.read(sensor_pin)
     millivolts = reading * 1800  # 1.8V reference = 1800 mV
