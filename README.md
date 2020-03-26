@@ -1,7 +1,7 @@
 TMP36GZ
 =================
 
-Calculating temperatur using the TMP36GZ in python
+Python files for valculating temperatur using the TMP36GZ on the Beaglebone Black
 
 | Board pin name | Board pin | Beaglebone Black pin name |
 |----------------|-----------| --------------------------|
